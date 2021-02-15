@@ -125,6 +125,7 @@ textarea {
   line-height: 1.14;
   letter-spacing: 2%;
   text-decoration: none;
+  transition: 250ms color cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .connection-link .link {
@@ -142,6 +143,7 @@ textarea {
   line-height: 1.14;
   letter-spacing: 2%;
   text-decoration: none;
+  transition: 250ms color cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .site-nav .link:hover,
@@ -438,6 +440,7 @@ textarea {
   justify-content: center;
   padding: 0 32px;
   margin-top: 16px;
+  transition: 250ms fill cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .person-networks li:not(:last-child) {
@@ -481,6 +484,7 @@ textarea {
   justify-content: center;
   align-items: center;
   border-radius: 50%;
+  transition: 250ms background-color cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .person-networks li {
@@ -492,6 +496,7 @@ textarea {
   width: 20px;
   height: 20px;
   fill: #afb1b8;
+  transition: 250ms fill cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* Клиенты */
@@ -547,6 +552,7 @@ textarea {
   width: 44px;
   height: 49px;
   fill: #afb1b8;
+  transition: 250ms fill cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-build,
@@ -562,6 +568,7 @@ textarea {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: 250ms fill cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-build:hover,
@@ -653,6 +660,7 @@ footer {
   font-size: 14px;
   line-height: 1.7px;
   text-decoration: none;
+  transition: 250ms color cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address-link:hover,
@@ -689,6 +697,7 @@ footer {
   justify-content: center;
   align-items: center;
   border-radius: 50%;
+  transition: 250ms background-color cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .networks-list li:hover {
@@ -739,6 +748,9 @@ footer {
   line-height: 1.63;
 
   text-align: center;
+
+  transition: 250ms color cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms background-color cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button-item {
